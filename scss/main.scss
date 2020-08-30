@@ -8,11 +8,11 @@ $secondary-color: #1abc9c;
 }
 
 body {
-  font: 200% $font-stack;
+  font: 300% $font-stack;
 }
 
 .container {
-  margin: 40 60;
+  margin: 40 60 10 60;
 }
 
 h6 {
@@ -40,8 +40,8 @@ a {
   width: 500;
 }
 svg {
-  width: 500;
-  height: 500;
+  width: 600;
+  height: 600;
   z-index: -10000000;
 }
 #music-1,

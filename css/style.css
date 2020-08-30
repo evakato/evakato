@@ -4,11 +4,11 @@
 }
 
 body {
-  font: 200% "Roboto Slab", serif;
+  font: 300% "Roboto Slab", serif;
 }
 
 .container {
-  margin: 40 60;
+  margin: 40 60 10 60;
 }
 
 h6 {
@@ -41,8 +41,8 @@ a {
 }
 
 svg {
-  width: 500;
-  height: 500;
+  width: 600;
+  height: 600;
   z-index: -10000000;
 }
 
