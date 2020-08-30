@@ -1,0 +1,875 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 200% "Roboto Slab", serif;
+}
+
+.container {
+  margin: 40 60;
+}
+
+h6 {
+  color: #1abc9c;
+}
+
+p,
+ul {
+  font-size: 50%;
+  margin-top: 10;
+}
+
+ul {
+  margin-left: 30;
+}
+
+li::marker {
+  color: #1abc9c;
+}
+
+a {
+  font-size: 60%;
+  color: #1abc9c;
+  margin: 0 7;
+}
+
+.list {
+  float: left;
+  width: 500;
+}
+
+svg {
+  width: 500;
+  height: 500;
+  z-index: -10000000;
+}
+
+#music-1,
+#music-2,
+#music-3,
+#music-4 {
+  animation: music 2s linear alternate infinite;
+}
+
+@keyframes music {
+  0% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(0.9, 0.9);
+  }
+}
+#Vector\ 146 {
+  opacity: 0%;
+  animation: star4 10s infinite;
+}
+
+#Vector\ 78 {
+  opacity: 0%;
+  animation: star2 15s infinite;
+}
+
+#Vector\ 11 {
+  opacity: 0%;
+  animation: star1 5s infinite;
+}
+
+#Vector\ 115 {
+  opacity: 0%;
+  animation: star4 18s infinite;
+}
+
+#Vector\ 99 {
+  opacity: 0%;
+  animation: star3 19s infinite;
+}
+
+#Vector\ 128 {
+  opacity: 0%;
+  animation: star0 10s infinite;
+}
+
+#Vector\ 62 {
+  opacity: 0%;
+  animation: star2 17s infinite;
+}
+
+#Vector\ 36 {
+  opacity: 0%;
+  animation: star1 6s infinite;
+}
+
+#Vector\ 143 {
+  opacity: 0%;
+  animation: star1 17s infinite;
+}
+
+#Vector\ 7 {
+  opacity: 0%;
+  animation: star2 12s infinite;
+}
+
+#Vector\ 26 {
+  opacity: 0%;
+  animation: star2 8s infinite;
+}
+
+#Vector\ 70 {
+  opacity: 0%;
+  animation: star0 6s infinite;
+}
+
+#Vector\ 33 {
+  opacity: 0%;
+  animation: star3 11s infinite;
+}
+
+#Vector\ 118 {
+  opacity: 0%;
+  animation: star2 6s infinite;
+}
+
+#Vector\ 65 {
+  opacity: 0%;
+  animation: star0 9s infinite;
+}
+
+#Vector\ 17 {
+  opacity: 0%;
+  animation: star3 13s infinite;
+}
+
+#Vector\ 112 {
+  opacity: 0%;
+  animation: star3 11s infinite;
+}
+
+#Vector\ 92 {
+  opacity: 0%;
+  animation: star2 13s infinite;
+}
+
+#Vector\ 52 {
+  opacity: 0%;
+  animation: star2 7s infinite;
+}
+
+#Vector\ 130 {
+  opacity: 0%;
+  animation: star4 16s infinite;
+}
+
+#Vector\ 42 {
+  opacity: 0%;
+  animation: star0 18s infinite;
+}
+
+#Vector\ 3 {
+  opacity: 0%;
+  animation: star4 12s infinite;
+}
+
+#Vector\ 84 {
+  opacity: 0%;
+  animation: star4 12s infinite;
+}
+
+#Vector\ 141 {
+  opacity: 0%;
+  animation: star0 16s infinite;
+}
+
+#Vector\ 90 {
+  opacity: 0%;
+  animation: star0 11s infinite;
+}
+
+#Vector\ 87 {
+  opacity: 0%;
+  animation: star2 10s infinite;
+}
+
+#Vector\ 140 {
+  opacity: 0%;
+  animation: star1 10s infinite;
+}
+
+#Vector\ 58 {
+  opacity: 0%;
+  animation: star2 17s infinite;
+}
+
+#Vector\ 72 {
+  opacity: 0%;
+  animation: star1 18s infinite;
+}
+
+#Vector\ 55 {
+  opacity: 0%;
+  animation: star4 15s infinite;
+}
+
+#Vector\ 86 {
+  opacity: 0%;
+  animation: star3 9s infinite;
+}
+
+#Vector\ 15 {
+  opacity: 0%;
+  animation: star3 17s infinite;
+}
+
+#Vector\ 46 {
+  opacity: 0%;
+  animation: star0 5s infinite;
+}
+
+#Vector\ 38 {
+  opacity: 0%;
+  animation: star4 7s infinite;
+}
+
+#Vector\ 41 {
+  opacity: 0%;
+  animation: star2 17s infinite;
+}
+
+#Vector\ 151 {
+  opacity: 0%;
+  animation: star0 16s infinite;
+}
+
+#Vector\ 56 {
+  opacity: 0%;
+  animation: star4 13s infinite;
+}
+
+#Vector\ 35 {
+  opacity: 0%;
+  animation: star1 11s infinite;
+}
+
+#Vector\ 4 {
+  opacity: 0%;
+  animation: star4 8s infinite;
+}
+
+#Vector\ 54 {
+  opacity: 0%;
+  animation: star2 19s infinite;
+}
+
+#Vector\ 47 {
+  opacity: 0%;
+  animation: star3 16s infinite;
+}
+
+#Vector\ 136 {
+  opacity: 0%;
+  animation: star2 12s infinite;
+}
+
+#Vector\ 30 {
+  opacity: 0%;
+  animation: star3 8s infinite;
+}
+
+#Vector\ 114 {
+  opacity: 0%;
+  animation: star2 12s infinite;
+}
+
+#Vector\ 39 {
+  opacity: 0%;
+  animation: star4 7s infinite;
+}
+
+#Vector\ 120 {
+  opacity: 0%;
+  animation: star3 5s infinite;
+}
+
+#Vector\ 12 {
+  opacity: 0%;
+  animation: star0 18s infinite;
+}
+
+#Vector\ 19 {
+  opacity: 0%;
+  animation: star2 19s infinite;
+}
+
+#Vector\ 108 {
+  opacity: 0%;
+  animation: star2 14s infinite;
+}
+
+#Vector\ 61 {
+  opacity: 0%;
+  animation: star3 12s infinite;
+}
+
+#Vector\ 64 {
+  opacity: 0%;
+  animation: star2 12s infinite;
+}
+
+#Vector\ 131 {
+  opacity: 0%;
+  animation: star2 9s infinite;
+}
+
+#Vector\ 127 {
+  opacity: 0%;
+  animation: star1 13s infinite;
+}
+
+#Vector\ 16 {
+  opacity: 0%;
+  animation: star2 18s infinite;
+}
+
+#Vector\ 20 {
+  opacity: 0%;
+  animation: star4 19s infinite;
+}
+
+#Vector\ 96 {
+  opacity: 0%;
+  animation: star1 8s infinite;
+}
+
+#Vector\ 71 {
+  opacity: 0%;
+  animation: star1 10s infinite;
+}
+
+#Vector\ 18 {
+  opacity: 0%;
+  animation: star2 9s infinite;
+}
+
+#Vector\ 153 {
+  opacity: 0%;
+  animation: star3 5s infinite;
+}
+
+#Vector\ 6 {
+  opacity: 0%;
+  animation: star0 8s infinite;
+}
+
+#Vector\ 101 {
+  opacity: 0%;
+  animation: star3 15s infinite;
+}
+
+#Vector\ 97 {
+  opacity: 0%;
+  animation: star2 10s infinite;
+}
+
+#Vector\ 29 {
+  opacity: 0%;
+  animation: star3 11s infinite;
+}
+
+#Vector\ 152 {
+  opacity: 0%;
+  animation: star4 13s infinite;
+}
+
+#Vector\ 124 {
+  opacity: 0%;
+  animation: star4 15s infinite;
+}
+
+#Vector\ 37 {
+  opacity: 0%;
+  animation: star1 9s infinite;
+}
+
+#Vector\ 32 {
+  opacity: 0%;
+  animation: star0 13s infinite;
+}
+
+#Vector\ 104 {
+  opacity: 0%;
+  animation: star4 19s infinite;
+}
+
+#Vector\ 107 {
+  opacity: 0%;
+  animation: star2 13s infinite;
+}
+
+#Vector\ 76 {
+  opacity: 0%;
+  animation: star4 14s infinite;
+}
+
+#Vector\ 22 {
+  opacity: 0%;
+  animation: star0 7s infinite;
+}
+
+#Vector\ 125 {
+  opacity: 0%;
+  animation: star2 10s infinite;
+}
+
+#Vector\ 66 {
+  opacity: 0%;
+  animation: star2 18s infinite;
+}
+
+#Vector\ 93 {
+  opacity: 0%;
+  animation: star4 17s infinite;
+}
+
+#Vector\ 34 {
+  opacity: 0%;
+  animation: star3 5s infinite;
+}
+
+#Vector\ 102 {
+  opacity: 0%;
+  animation: star3 18s infinite;
+}
+
+#Vector\ 105 {
+  opacity: 0%;
+  animation: star1 8s infinite;
+}
+
+#Vector\ 148 {
+  opacity: 0%;
+  animation: star2 17s infinite;
+}
+
+#Vector\ 139 {
+  opacity: 0%;
+  animation: star1 18s infinite;
+}
+
+#Vector\ 147 {
+  opacity: 0%;
+  animation: star1 8s infinite;
+}
+
+#Vector\ 59 {
+  opacity: 0%;
+  animation: star4 11s infinite;
+}
+
+#Vector\ 116 {
+  opacity: 0%;
+  animation: star2 7s infinite;
+}
+
+#Vector\ 24 {
+  opacity: 0%;
+  animation: star3 6s infinite;
+}
+
+#Vector\ 94 {
+  opacity: 0%;
+  animation: star2 11s infinite;
+}
+
+#Vector\ 134 {
+  opacity: 0%;
+  animation: star3 6s infinite;
+}
+
+#Vector\ 81 {
+  opacity: 0%;
+  animation: star2 11s infinite;
+}
+
+#Vector\ 77 {
+  opacity: 0%;
+  animation: star3 7s infinite;
+}
+
+#Vector\ 111 {
+  opacity: 0%;
+  animation: star4 8s infinite;
+}
+
+#Vector\ 49 {
+  opacity: 0%;
+  animation: star2 9s infinite;
+}
+
+#Vector\ 9 {
+  opacity: 0%;
+  animation: star3 19s infinite;
+}
+
+#Vector\ 74 {
+  opacity: 0%;
+  animation: star3 14s infinite;
+}
+
+#Vector\ 83 {
+  opacity: 0%;
+  animation: star3 14s infinite;
+}
+
+#Vector\ 75 {
+  opacity: 0%;
+  animation: star4 17s infinite;
+}
+
+#Vector\ 25 {
+  opacity: 0%;
+  animation: star1 16s infinite;
+}
+
+#Vector\ 28 {
+  opacity: 0%;
+  animation: star2 18s infinite;
+}
+
+#Vector\ 23 {
+  opacity: 0%;
+  animation: star4 19s infinite;
+}
+
+#Vector\ 129 {
+  opacity: 0%;
+  animation: star0 14s infinite;
+}
+
+#Vector\ 142 {
+  opacity: 0%;
+  animation: star0 14s infinite;
+}
+
+#Vector\ 73 {
+  opacity: 0%;
+  animation: star1 15s infinite;
+}
+
+#Vector\ 5 {
+  opacity: 0%;
+  animation: star0 17s infinite;
+}
+
+#Vector\ 10 {
+  opacity: 0%;
+  animation: star3 19s infinite;
+}
+
+#Vector\ 85 {
+  opacity: 0%;
+  animation: star3 18s infinite;
+}
+
+#Vector\ 79 {
+  opacity: 0%;
+  animation: star4 9s infinite;
+}
+
+#Vector\ 137 {
+  opacity: 0%;
+  animation: star4 10s infinite;
+}
+
+#Vector\ 60 {
+  opacity: 0%;
+  animation: star2 5s infinite;
+}
+
+#Vector\ 68 {
+  opacity: 0%;
+  animation: star1 15s infinite;
+}
+
+#Vector\ 48 {
+  opacity: 0%;
+  animation: star0 10s infinite;
+}
+
+#Vector\ 43 {
+  opacity: 0%;
+  animation: star1 18s infinite;
+}
+
+#Vector\ 63 {
+  opacity: 0%;
+  animation: star3 14s infinite;
+}
+
+#Vector\ 2 {
+  opacity: 0%;
+  animation: star4 19s infinite;
+}
+
+#Vector\ 8 {
+  opacity: 0%;
+  animation: star3 10s infinite;
+}
+
+#Vector\ 122 {
+  opacity: 0%;
+  animation: star2 17s infinite;
+}
+
+#Vector\ 14 {
+  opacity: 0%;
+  animation: star2 12s infinite;
+}
+
+#Vector\ 106 {
+  opacity: 0%;
+  animation: star0 7s infinite;
+}
+
+#Vector\ 117 {
+  opacity: 0%;
+  animation: star4 5s infinite;
+}
+
+#Vector\ 109 {
+  opacity: 0%;
+  animation: star3 10s infinite;
+}
+
+#Vector\ 138 {
+  opacity: 0%;
+  animation: star3 9s infinite;
+}
+
+#Vector\ 51 {
+  opacity: 0%;
+  animation: star2 5s infinite;
+}
+
+#Vector\ 145 {
+  opacity: 0%;
+  animation: star2 16s infinite;
+}
+
+#Vector\ 44 {
+  opacity: 0%;
+  animation: star2 14s infinite;
+}
+
+#Vector\ 154 {
+  opacity: 0%;
+  animation: star4 16s infinite;
+}
+
+#Vector\ 95 {
+  opacity: 0%;
+  animation: star4 15s infinite;
+}
+
+#Vector\ 67 {
+  opacity: 0%;
+  animation: star3 9s infinite;
+}
+
+#Vector\ 126 {
+  opacity: 0%;
+  animation: star4 15s infinite;
+}
+
+#Vector\ 150 {
+  opacity: 0%;
+  animation: star1 6s infinite;
+}
+
+#Vector\ 133 {
+  opacity: 0%;
+  animation: star4 12s infinite;
+}
+
+#Vector\ 89 {
+  opacity: 0%;
+  animation: star1 12s infinite;
+}
+
+#Vector\ 113 {
+  opacity: 0%;
+  animation: star2 11s infinite;
+}
+
+#Vector\ 57 {
+  opacity: 0%;
+  animation: star3 15s infinite;
+}
+
+#Vector\ 27 {
+  opacity: 0%;
+  animation: star2 16s infinite;
+}
+
+#Vector\ 82 {
+  opacity: 0%;
+  animation: star3 10s infinite;
+}
+
+#Vector\ 69 {
+  opacity: 0%;
+  animation: star4 13s infinite;
+}
+
+#Vector\ 1 {
+  opacity: 0%;
+  animation: star4 8s infinite;
+}
+
+#Vector\ 121 {
+  opacity: 0%;
+  animation: star3 13s infinite;
+}
+
+#Vector\ 13 {
+  opacity: 0%;
+  animation: star0 17s infinite;
+}
+
+#Vector\ 135 {
+  opacity: 0%;
+  animation: star0 16s infinite;
+}
+
+#Vector\ 149 {
+  opacity: 0%;
+  animation: star0 15s infinite;
+}
+
+#Vector\ 132 {
+  opacity: 0%;
+  animation: star3 17s infinite;
+}
+
+#Vector\ 31 {
+  opacity: 0%;
+  animation: star1 8s infinite;
+}
+
+#Vector\ 119 {
+  opacity: 0%;
+  animation: star0 16s infinite;
+}
+
+#Vector\ 123 {
+  opacity: 0%;
+  animation: star1 6s infinite;
+}
+
+#Vector\ 91 {
+  opacity: 0%;
+  animation: star1 6s infinite;
+}
+
+#Vector\ 53 {
+  opacity: 0%;
+  animation: star1 14s infinite;
+}
+
+#Vector\ 80 {
+  opacity: 0%;
+  animation: star0 12s infinite;
+}
+
+#Vector\ 110 {
+  opacity: 0%;
+  animation: star0 11s infinite;
+}
+
+#Vector\ 40 {
+  opacity: 0%;
+  animation: star2 19s infinite;
+}
+
+#Vector\ 103 {
+  opacity: 0%;
+  animation: star1 18s infinite;
+}
+
+#Vector\ 50 {
+  opacity: 0%;
+  animation: star2 17s infinite;
+}
+
+#Vector\ 45 {
+  opacity: 0%;
+  animation: star0 15s infinite;
+}
+
+#Vector\ 21 {
+  opacity: 0%;
+  animation: star2 10s infinite;
+}
+
+#Vector\ 98 {
+  opacity: 0%;
+  animation: star4 11s infinite;
+}
+
+#Vector\ 144 {
+  opacity: 0%;
+  animation: star1 14s infinite;
+}
+
+#Vector\ 88 {
+  opacity: 0%;
+  animation: star3 19s infinite;
+}
+
+#Vector\ 100 {
+  opacity: 0%;
+  animation: star1 14s infinite;
+}
+
+@keyframes star0 {
+  60%, 40% {
+    opacity: 0;
+  }
+  50%, 60% {
+    opacity: 1;
+  }
+}
+@keyframes star1 {
+  80%, 60% {
+    opacity: 0;
+  }
+  70%, 80% {
+    opacity: 1;
+  }
+}
+@keyframes star2 {
+  100%, 80% {
+    opacity: 0;
+  }
+  90%, 100% {
+    opacity: 1;
+  }
+}
+@keyframes star3 {
+  20%, 100% {
+    opacity: 0;
+  }
+  10%, 20% {
+    opacity: 1;
+  }
+}
+@keyframes star4 {
+  40%, 20% {
+    opacity: 0;
+  }
+  30%, 40% {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
